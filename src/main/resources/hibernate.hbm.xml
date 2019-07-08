@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.kulpekin.models.Service" table="service">
+        <id name="id">
+            <generator class="assigned">
+
+            </generator>
+        </id>
+        <property name="name">
+
+        </property>
+    </class>
+
+    <class name="com.kulpekin.models.Worker" table="worker">
+        <id name="id">
+            <generator class="assigned">
+
+            </generator>
+        </id>
+        <property name="firstName"/>
+        <property name="lastName"/>
+        <property name="position"/>
+    </class>
+
+    <class name="com.kulpekin.models.Client" table="client">
+        <id name="id">
+            <generator class="assigned">
+
+            </generator>
+        </id>
+        <property name="firstName"/>
+        <property name="lastName"/>
+        <property name="mobileNumber"/>
+        <property name="email"/>
+    </class>
+
+    <class name="com.kulpekin.models.NameService" table="nameservice">
+        <id name="id">
+            <generator class="assigned">
+
+            </generator>
+        </id>
+        <property name="nameService"/>
+        <property name="kindService"/>
+        <property name="price"/>
+    </class>
+
+    <class name="com.kulpekin.models.Ordering" table="ordering">
+        <id name="id">
+            <generator class="assigned">
+
+            </generator>
+        </id>
+        <property name="generalPrice"/>
+        <property name="dateOrdering"/>
+        <property name="numberService"/>
+        <property name="idWorker"/>
+        <property name="idClient"/>
+        <property name="idNameService"/>
+    </class>
+
+</hibernate-mapping>
