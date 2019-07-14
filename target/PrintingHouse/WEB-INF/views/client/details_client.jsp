@@ -35,7 +35,7 @@
 </head>
 <body>
 <header>
-    <h1 id="header">PrinterPlace</h1>
+    <h1 id="header">Printer House</h1>
     <div id="headerButton">
         <a href="${pageContext.request.contextPath}/index"><button>Table "Service"</button></a>
         <a href="${pageContext.request.contextPath}/listNameService"><button>Table "Name Service"</button></a>
