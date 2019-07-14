@@ -15,15 +15,15 @@
     <style>
         #nameService_error{
             color:red;
-            margin-left: 10px;
+            margin-left: 30px;
         }
         #kindService_error{
             color:red;
-            margin-left: 10px;
+            margin-left: 30px;
         }
         #price_error{
             color:red;
-            margin-left: 10px;
+            margin-left: 30px;
         }
     </style>
 </head>
@@ -35,7 +35,7 @@
         <table border="0" cellpadding="5">
             <tr>
                 <td>Name Service:</td>
-                <td><form:select items="${listServices}" path="nameService" name="selectItems"/> <span id="nameService_error"></span></td>
+                <td><form:select items="${listServices}" path="nameService" id="selectValue" name="selectItems"/> <span id="nameService_error"></span></td>
             </tr>
             <tr>
                 <td>Kind Service:</td>
@@ -43,7 +43,7 @@
             </tr>
             <tr>
                 <td>Price:</td>
-                <td><form:input path="price" name="price"/><span id="price_error"></span></td>
+                <td><form:input path="price" name="price" id="price"/><span id="price_error"></span></td>
             </tr>
             <tr>
                 <td colspan="2"><input type="submit" value="Save"></td>
