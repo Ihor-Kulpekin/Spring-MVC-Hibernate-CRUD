@@ -1,11 +1,10 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8"%>
 <html>
 <head>
     <title>New Service</title>
-    <script src="${pageContext.request.contextPath}/resources/js/ValidateService.js">
-    </script>
+    <script  src="${pageContext.request.contextPath}/resources/js/ValidateService.js"></script>
     <style>
         #textMessageError{
             color:red;
