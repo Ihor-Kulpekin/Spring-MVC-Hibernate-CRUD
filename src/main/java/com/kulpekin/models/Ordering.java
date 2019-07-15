@@ -15,7 +15,7 @@ public class Ordering {
     private String generalPrice;
 
     @Column(name = "Date_Ordering")
-    private Date dateOrdering;
+    private String dateOrdering;
 
     @Column(name = "Number_Service")
     private String numberService;
@@ -48,11 +48,11 @@ public class Ordering {
         this.generalPrice = generalPrice;
     }
 
-    public Date getDateOrdering() {
+    public String getDateOrdering() {
         return dateOrdering;
     }
 
-    public void setDateOrdering(Date dateOrdering) {
+    public void setDateOrdering(String dateOrdering) {
         this.dateOrdering = dateOrdering;
     }
 
