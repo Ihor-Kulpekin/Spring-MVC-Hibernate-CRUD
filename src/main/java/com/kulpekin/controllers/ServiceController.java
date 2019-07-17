@@ -3,6 +3,7 @@ package com.kulpekin.controllers;
 
 import com.kulpekin.models.Service;
 import com.kulpekin.service.interfaceService.PoslugaService;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
@@ -18,6 +19,7 @@ import java.util.List;
 @Controller
 public class ServiceController {
 
+    private static final Logger logger = Logger.getLogger(ServiceController.class);
     private PoslugaService poslugaService;
 
     @Autowired
@@ -28,9 +30,15 @@ public class ServiceController {
 
     @RequestMapping("/index")
     public ModelAndView home(){
-        List<Service> serviceList = poslugaService.listServices();
         ModelAndView modelAndView = new ModelAndView("service/index");
-        modelAndView.addObject("listService",serviceList);
+        try{
+            logger.info("Showing list services...");
+            List<Service> serviceList = poslugaService.listServices();
+            modelAndView.addObject("listService",serviceList);
+            logger.info(serviceList.toString());
+        }catch (Exception exception){
+            logger.error("Exception:"+exception.getMessage());
+        }
         return modelAndView;
     }
 
@@ -42,7 +50,13 @@ public class ServiceController {
 
     @RequestMapping(value = "/save",method = RequestMethod.POST)
     public String saveService(@ModelAttribute("service") Service service){
-        poslugaService.addService(service);
+        try {
+            logger.info("Trying to add service to DB...");
+            poslugaService.addService(service);
+            logger.info("Service is added to DB");
+        }catch (Exception exception){
+            logger.error("Exception:"+exception.getMessage());
+        }
         return "redirect:/index";
     }
 
@@ -56,21 +70,39 @@ public class ServiceController {
 
     @RequestMapping(value = "/edit/service",method = RequestMethod.POST)
     public String editService(@ModelAttribute("service") Service service){
-        poslugaService.updateService(service);
+        try {
+            logger.info("Trying to edit service");
+            poslugaService.updateService(service);
+            logger.info("Service is edited");
+        }catch (Exception exception){
+            logger.error("Exception:"+exception.getMessage());
+        }
         return "redirect:/index";
     }
 
     @RequestMapping("delete")
     public String deleteService(@RequestParam int id){
-        poslugaService.removeService(id);
+        try {
+            logger.info("Trying to delete service by id = "+id);
+            poslugaService.removeService(id);
+            logger.info("Service is deleted");
+        }catch (Exception exception){
+            logger.error("Exception:"+exception.getMessage());
+        }
         return "redirect:/index";
     }
 
     @RequestMapping("/search")
     public ModelAndView detailsService(@RequestParam int id){
         ModelAndView modelAndView = new ModelAndView("service/details_service");
-        Service service = poslugaService.getServiceById(id);
-        modelAndView.addObject("service",service);
+        try {
+            logger.info("Trying to get information about id = "+ id);
+            Service service = poslugaService.getServiceById(id);
+            modelAndView.addObject("service",service);
+            logger.info("Got information about id = " + id);
+        }catch (Exception exception){
+            logger.error("Exception:"+exception.getMessage());
+        }
         return modelAndView;
     }
 

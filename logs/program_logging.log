@@ -1,0 +1,18 @@
+2019-07-17 03:08:14 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-17 03:08:14 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-17 03:08:15 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-17 03:08:17 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-17 03:08:19 INFO  com.kulpekin.controllers.MainController:15 - Start logging
+2019-07-17 03:08:28 INFO  com.kulpekin.controllers.MainController:15 - Start logging
+2019-07-17 03:09:04 INFO  com.kulpekin.controllers.ServiceController:35 - Showing list services...
+2019-07-17 03:09:09 INFO  com.kulpekin.controllers.ServiceController:38 - [Service{id=31, name=''}, Service{id=32, name=''}, Service{id=34, name=''}, Service{id=35, name='kUROSCHKA'}]
+2019-07-17 03:09:13 INFO  com.kulpekin.controllers.ServiceController:35 - Showing list services...
+2019-07-17 03:09:13 INFO  com.kulpekin.controllers.ServiceController:38 - [Service{id=31, name=''}, Service{id=32, name=''}, Service{id=34, name=''}, Service{id=35, name='kUROSCHKA'}]
+2019-07-17 03:10:15 INFO  com.kulpekin.controllers.ServiceController:54 - Trying to add service to DB...
+2019-07-17 03:10:15 INFO  com.kulpekin.controllers.ServiceController:56 - Service is added to DB
+2019-07-17 03:10:16 INFO  com.kulpekin.controllers.ServiceController:35 - Showing list services...
+2019-07-17 03:10:16 INFO  com.kulpekin.controllers.ServiceController:38 - [Service{id=31, name=''}, Service{id=32, name=''}, Service{id=34, name=''}, Service{id=35, name='kUROSCHKA'}, Service{id=36, name='paper A4'}]
+2019-07-17 03:10:49 INFO  com.kulpekin.controllers.MainController:36 - Show list of ordering
+2019-07-17 03:11:46 INFO  com.kulpekin.controllers.MainController:58 - Trying to ad ordering to DB
+2019-07-17 03:11:46 INFO  com.kulpekin.controllers.MainController:60 - Ordering was added
+2019-07-17 03:11:46 INFO  com.kulpekin.controllers.MainController:36 - Show list of ordering
