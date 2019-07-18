@@ -13,10 +13,10 @@ IHOR KULPEKIN
 ## Technologies
 
 * **Programming language:** Java;
-* **Internet Technologies:** HTML, CSS;
+* **Internet Technologies:** HTML, CSS, JavaScript;
 * **Database:** MySQL;
 * **Web:** JSP;
 * **Servlet Containers:** Tomcat;
 * **Integrated Development Environment:** IntelliJ IDEA;
-* **Frameworks:** Spring, Hibernate;
+* **Frameworks:** Spring, Hibernate, Log4j;
 
