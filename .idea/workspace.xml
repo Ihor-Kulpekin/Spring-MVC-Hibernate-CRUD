@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a6e6692-b6ab-4655-8804-fe4454ddbe14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kulpekin/dao/implementation/NameServiceDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kulpekin/dao/implementation/ClientDaoImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/program_logging.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/program_logging.log" afterDir="false" />
     </list>
@@ -38,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/dao/implementation/ServiceDaoImplTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/dao/implementation/ClientDaoImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="89" column="49" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="49" />
+            <state relative-caret-position="17">
+              <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,23 +50,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/dao/implementation/NameServiceDaoImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="113" column="52" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+            <state relative-caret-position="43">
+              <caret line="90" column="8" lean-forward="true" selection-start-line="90" selection-start-column="8" selection-end-line="103" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4114#4115#0" expanded="true" />
+                <element signature="e#4183#4184#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulpekin/dao/implementation/NameServiceDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -91,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/models/Client.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/service/details_service.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/service/index.jsp" />
@@ -142,6 +134,7 @@
         <option value="$PROJECT_DIR$/spring_test.script" />
         <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/dao/implementation/ServiceDaoImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/dao/implementation/NameServiceDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/dao/implementation/ClientDaoImplTest.java" />
       </list>
     </option>
   </component>
@@ -219,15 +212,6 @@
               <item name="Spring-MVC-Hibernate-CRUD" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring-MVC-Hibernate-CRUD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kulpekin" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring-MVC-Hibernate-CRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-MVC-Hibernate-CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -257,7 +241,7 @@
     <property name="DatabaseDriversLRU" value="hsqldb&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563534875364" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563536303359" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -296,8 +280,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NameServiceDaoImplTest">
-    <configuration name="NameServiceDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ClientDaoImplTest">
+    <configuration name="ClientDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring-MVC-Hibernate-CRUD" />
       <extension name="coverage">
         <pattern>
@@ -306,13 +290,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kulpekin.dao.implementation" />
-      <option name="MAIN_CLASS_NAME" value="com.kulpekin.dao.implementation.NameServiceDaoImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kulpekin.dao.implementation.ClientDaoImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameServiceDaoImplTest.deleteNameServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientDaoImplTest.getClientById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring-MVC-Hibernate-CRUD" />
       <extension name="coverage">
         <pattern>
@@ -321,14 +305,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kulpekin.dao.implementation" />
-      <option name="MAIN_CLASS_NAME" value="com.kulpekin.dao.implementation.NameServiceDaoImplTest" />
-      <option name="METHOD_NAME" value="deleteNameServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kulpekin.dao.implementation.ClientDaoImplTest" />
+      <option name="METHOD_NAME" value="getClientById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameServiceDaoImplTest.getNameServiceByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientDaoImplTest.listClients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring-MVC-Hibernate-CRUD" />
       <extension name="coverage">
         <pattern>
@@ -337,14 +321,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kulpekin.dao.implementation" />
-      <option name="MAIN_CLASS_NAME" value="com.kulpekin.dao.implementation.NameServiceDaoImplTest" />
-      <option name="METHOD_NAME" value="getNameServiceByIdTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kulpekin.dao.implementation.ClientDaoImplTest" />
+      <option name="METHOD_NAME" value="listClients" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameServiceDaoImplTest.listNameServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientDaoImplTest.removeClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring-MVC-Hibernate-CRUD" />
       <extension name="coverage">
         <pattern>
@@ -353,14 +337,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kulpekin.dao.implementation" />
-      <option name="MAIN_CLASS_NAME" value="com.kulpekin.dao.implementation.NameServiceDaoImplTest" />
-      <option name="METHOD_NAME" value="listNameServicesTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kulpekin.dao.implementation.ClientDaoImplTest" />
+      <option name="METHOD_NAME" value="removeClient" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameServiceDaoImplTest.listServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientDaoImplTest.updateClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring-MVC-Hibernate-CRUD" />
       <extension name="coverage">
         <pattern>
@@ -369,8 +353,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kulpekin.dao.implementation" />
-      <option name="MAIN_CLASS_NAME" value="com.kulpekin.dao.implementation.NameServiceDaoImplTest" />
-      <option name="METHOD_NAME" value="listServicesTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kulpekin.dao.implementation.ClientDaoImplTest" />
+      <option name="METHOD_NAME" value="updateClient" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -451,11 +435,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NameServiceDaoImplTest" />
-        <item itemvalue="JUnit.NameServiceDaoImplTest.listServicesTest" />
-        <item itemvalue="JUnit.NameServiceDaoImplTest.listNameServicesTest" />
-        <item itemvalue="JUnit.NameServiceDaoImplTest.getNameServiceByIdTest" />
-        <item itemvalue="JUnit.NameServiceDaoImplTest.deleteNameServiceTest" />
+        <item itemvalue="JUnit.ClientDaoImplTest" />
+        <item itemvalue="JUnit.ClientDaoImplTest.listClients" />
+        <item itemvalue="JUnit.ClientDaoImplTest.removeClient" />
+        <item itemvalue="JUnit.ClientDaoImplTest.getClientById" />
+        <item itemvalue="JUnit.ClientDaoImplTest.updateClient" />
       </list>
     </recent_temporary>
   </component>
@@ -493,7 +477,7 @@
       <workItem from="1563483235538" duration="3173000" />
       <workItem from="1563491978679" duration="185000" />
       <workItem from="1563492222973" duration="12287000" />
-      <workItem from="1563528592146" duration="3322000" />
+      <workItem from="1563528592146" duration="4671000" />
     </task>
     <task id="LOCAL-00001" summary="validation">
       <created>1563069771263</created>
@@ -558,31 +542,17 @@
       <option name="project" value="LOCAL" />
       <updated>1563499088041</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="testing dao layer &quot;NameService&quot;">
+      <created>1563534915460</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563534915460</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NameServiceDaoImplTest_insertNameServiceTest - 2019.07.19 at 05h 39m 18s.xml">
-      <configuration name="NameServiceDaoImplTest.insertNameServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameServiceDaoImplTest_insertNameServiceTest - 2019.07.19 at 12h 30m 50s.xml">
-      <configuration name="NameServiceDaoImplTest.insertNameServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameServiceDaoImplTest_updateNameServiceTest - 2019.07.19 at 13h 57m 48s.xml">
-      <configuration name="NameServiceDaoImplTest.updateNameServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameServiceDaoImplTest_updateNameServiceTest - 2019.07.19 at 13h 58m 53s.xml">
-      <configuration name="NameServiceDaoImplTest.updateNameServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameServiceDaoImplTest_updateNameServiceTest - 2019.07.19 at 14h 00m 35s.xml">
-      <configuration name="NameServiceDaoImplTest.updateNameServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameServiceDaoImplTest_updateNameServiceTest - 2019.07.19 at 14h 01m 26s.xml">
-      <configuration name="NameServiceDaoImplTest.updateNameServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameServiceDaoImplTest_updateNameServiceTest - 2019.07.19 at 14h 02m 53s.xml">
-      <configuration name="NameServiceDaoImplTest.updateNameServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NameServiceDaoImplTest_deleteNameServiceTest - 2019.07.19 at 14h 06m 29s.xml">
       <configuration name="NameServiceDaoImplTest.deleteNameServiceTest" configurationId="JUnit" />
     </history-entry>
@@ -592,9 +562,30 @@
     <history-entry file="NameServiceDaoImplTest_getNameServiceByIdTest - 2019.07.19 at 14h 10m 42s.xml">
       <configuration name="NameServiceDaoImplTest.getNameServiceByIdTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NameServiceDaoImplTest_listNameServicesTest - 2019.07.19 at 14h 12m 39s.xml">
+      <configuration name="NameServiceDaoImplTest.listNameServicesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameServiceDaoImplTest_listServicesTest - 2019.07.19 at 14h 14m 11s.xml">
+      <configuration name="NameServiceDaoImplTest.listServicesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameServiceDaoImplTest - 2019.07.19 at 14h 14m 45s.xml">
+      <configuration name="NameServiceDaoImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientDaoImplTest_addClient - 2019.07.19 at 14h 23m 20s.xml">
+      <configuration name="ClientDaoImplTest.addClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientDaoImplTest_addClient - 2019.07.19 at 14h 24m 54s.xml">
+      <configuration name="ClientDaoImplTest.addClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientDaoImplTest_updateClient - 2019.07.19 at 14h 28m 33s.xml">
+      <configuration name="ClientDaoImplTest.updateClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientDaoImplTest_updateClient - 2019.07.19 at 14h 30m 15s.xml">
+      <configuration name="ClientDaoImplTest.updateClient" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130494000" />
+    <option name="totallyTimeSpent" value="131843000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,7 +600,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.36081696" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.3600605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -700,23 +691,10 @@
     <MESSAGE value="validation name service page" />
     <MESSAGE value="validation ordering page" />
     <MESSAGE value="testing dao layer &quot;Service&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing dao layer &quot;Service&quot;" />
+    <MESSAGE value="testing dao layer &quot;NameService&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing dao layer &quot;NameService&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/edit_client.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/new_client.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nameService/edit_nameservice.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -983,13 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulpekin/dao/implementation/NameServiceDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/dao/implementation/ServiceDaoImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -1000,10 +971,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/dao/implementation/NameServiceDaoImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulpekin/dao/implementation/NameServiceDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="113" column="52" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulpekin/dao/implementation/ClientDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/dao/implementation/NameServiceDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="90" column="8" lean-forward="true" selection-start-line="90" selection-start-column="8" selection-end-line="103" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4114#4115#0" expanded="true" />
+            <element signature="e#4183#4184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/dao/implementation/ClientDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
