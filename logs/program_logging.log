@@ -16,3 +16,212 @@
 2019-07-17 03:11:46 INFO  com.kulpekin.controllers.MainController:58 - Trying to ad ordering to DB
 2019-07-17 03:11:46 INFO  com.kulpekin.controllers.MainController:60 - Ordering was added
 2019-07-17 03:11:46 INFO  com.kulpekin.controllers.MainController:36 - Show list of ordering
+2019-07-19 01:56:01 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 01:56:01 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 01:56:02 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 01:56:04 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 01:56:05 INFO  com.kulpekin.controllers.MainController:15 - Start logging
+2019-07-19 01:56:15 INFO  com.kulpekin.controllers.MainController:15 - Start logging
+2019-07-19 02:01:41 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 02:01:41 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 02:01:42 INFO  hsqldb.db.HSQLDB6C0751E376.ENGINE:? - Checkpoint start
+2019-07-19 02:01:42 INFO  hsqldb.db.HSQLDB6C0751E376.ENGINE:? - checkpointClose start
+2019-07-19 02:01:43 INFO  hsqldb.db.HSQLDB6C0751E376.ENGINE:? - checkpointClose end
+2019-07-19 02:01:43 INFO  hsqldb.db.HSQLDB6C0751E376.ENGINE:? - Checkpoint end
+2019-07-19 02:01:43 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 02:01:44 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 02:01:44 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper:137 - SQL Error: -5501, SQLState: 42501
+2019-07-19 02:01:44 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:142 - user lacks privilege or object not found: SERVICE
+2019-07-19 02:02:52 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 02:02:52 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 02:02:53 INFO  hsqldb.db.HSQLDB6C0751E376.ENGINE:? - checkpointClose start
+2019-07-19 02:02:53 INFO  hsqldb.db.HSQLDB6C0751E376.ENGINE:? - checkpointClose end
+2019-07-19 02:02:53 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2019-07-19 02:02:54 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 02:02:55 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper:137 - SQL Error: -5501, SQLState: 42501
+2019-07-19 02:02:55 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:142 - user lacks privilege or object not found: SERVICE
+2019-07-19 02:27:58 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 02:27:58 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 02:28:04 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2019-07-19 02:28:04 ERROR org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentImpl:420 - Could not fetch the SequenceInformation from the database
+java.sql.SQLSyntaxErrorException: Unknown table 'sequences' in information_schema
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1218)
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:42)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentImpl.sequenceInformationList(JdbcEnvironmentImpl.java:403)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentImpl.<init>(JdbcEnvironmentImpl.java:268)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:114)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:175)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:83)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:473)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:84)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:689)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:615)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:830)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2019-07-19 02:28:05 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 02:31:44 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 02:31:44 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 02:31:46 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 02:31:47 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 02:44:42 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 02:44:43 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 02:44:45 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 02:44:46 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 02:50:23 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 02:50:24 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 02:50:25 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 02:50:27 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 02:52:55 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 02:52:56 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 02:52:58 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 02:53:00 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:12:21 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:12:22 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:12:24 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:12:26 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:13:08 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:13:09 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:13:10 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:13:11 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:16:27 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:16:28 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:16:29 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:16:30 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:22:17 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:22:18 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:22:19 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:22:20 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:34:20 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:34:21 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:34:22 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:34:23 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:35:22 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:35:22 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:35:23 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:35:25 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:37:25 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:37:26 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:37:27 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:37:29 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:38:11 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:38:11 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:38:13 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:38:15 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:39:38 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:39:39 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:39:40 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:39:41 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:40:22 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:40:22 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:40:24 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:40:25 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:41:22 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:41:22 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:41:24 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:41:25 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:42:27 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:42:27 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:42:28 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:42:30 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:44:05 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:44:05 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:44:07 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:44:08 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:45:21 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:45:22 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:45:23 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:45:24 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:46:25 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:46:25 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:46:26 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:46:28 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:58:14 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:58:14 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:58:16 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:58:17 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 03:58:43 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 03:58:44 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 03:58:45 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 03:58:46 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 04:00:35 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 04:00:36 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 04:00:38 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 04:00:39 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 04:05:21 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 04:05:22 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 04:05:23 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 04:05:24 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 04:07:51 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 04:07:51 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 04:07:52 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 04:07:53 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 04:08:16 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 04:08:16 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 04:08:17 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 04:08:18 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 04:10:13 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 04:10:14 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 04:10:15 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 04:10:16 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 04:10:35 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 04:10:36 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 04:10:37 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 04:10:38 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 04:11:03 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 04:11:03 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 04:11:04 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 04:11:05 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
