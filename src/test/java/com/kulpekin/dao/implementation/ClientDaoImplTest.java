@@ -36,7 +36,7 @@ public class ClientDaoImplTest {
     @Transactional
     @Rollback
     @Test
-    public void addClient() {
+    public void addClientTest() {
         clientDao.addClient(resultClient);
         Client resultClient = clientDao.getClientById(this.resultClient.getId());
         assertNotNull(this.resultClient);
@@ -47,7 +47,7 @@ public class ClientDaoImplTest {
     @Transactional
     @Rollback
     @Test
-    public void updateClient() {
+    public void updateClientTest() {
         Client resultClient = new Client();
 
         resultClient.setFirstName("Ihor");
@@ -63,7 +63,7 @@ public class ClientDaoImplTest {
     @Transactional
     @Rollback
     @Test
-    public void getClientById() {
+    public void getClientByIdTest() {
         Client client = new Client();
         Client client1 = new Client();
         client.setFirstName("Ihor");
@@ -85,7 +85,7 @@ public class ClientDaoImplTest {
     @Transactional
     @Rollback
     @Test
-    public void removeClient() {
+    public void removeClientTest() {
         Client client = new Client();
         Client client1 = new Client();
         client.setFirstName("Ihor");
@@ -105,7 +105,7 @@ public class ClientDaoImplTest {
     @Transactional
     @Rollback
     @Test
-    public void listClients() {
+    public void listClientsTest() {
         assertEquals(0L,clientDao.listClients().size());
     }
 }
