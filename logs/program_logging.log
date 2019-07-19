@@ -225,3 +225,123 @@ java.sql.SQLSyntaxErrorException: Unknown table 'sequences' in information_schem
 2019-07-19 04:11:03 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
 2019-07-19 04:11:04 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 2019-07-19 04:11:05 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 04:56:55 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 04:56:56 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 04:56:57 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 04:56:58 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 04:56:58 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper:137 - SQL Error: 1146, SQLState: 42S02
+2019-07-19 04:56:58 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:142 - Table 'springtest_junit.nameservice' doesn't exist
+2019-07-19 05:02:27 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:02:27 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:02:28 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:02:29 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:02:30 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper:137 - SQL Error: 1452, SQLState: 23000
+2019-07-19 05:02:30 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:142 - Cannot add or update a child row: a foreign key constraint fails (`springtest_junit`.`nameservice`, CONSTRAINT `Name_Service_FK` FOREIGN KEY (`Name_Service`) REFERENCES `service` (`Name`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2019-07-19 05:10:51 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:10:51 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:10:52 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:10:53 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:11:23 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:11:23 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:11:24 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:11:25 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:11:26 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper:137 - SQL Error: 1452, SQLState: 23000
+2019-07-19 05:11:26 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:142 - Cannot add or update a child row: a foreign key constraint fails (`springtest_junit`.`nameservice`, CONSTRAINT `Name_Service_FK` FOREIGN KEY (`Name_Service`) REFERENCES `service` (`Name`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2019-07-19 05:12:05 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:12:06 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:12:07 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:12:07 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:12:08 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper:137 - SQL Error: 1452, SQLState: 23000
+2019-07-19 05:12:08 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:142 - Cannot add or update a child row: a foreign key constraint fails (`springtest_junit`.`nameservice`, CONSTRAINT `Name_Service_FK` FOREIGN KEY (`Name_Service`) REFERENCES `service` (`Name`) ON DELETE CASCADE ON UPDATE CASCADE)
+2019-07-19 05:14:18 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:14:19 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:14:20 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:14:21 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:16:37 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:16:37 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:16:38 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:16:39 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:16:40 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper:137 - SQL Error: 1452, SQLState: 23000
+2019-07-19 05:16:40 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:142 - Cannot add or update a child row: a foreign key constraint fails (`springtest_junit`.`nameservice`, CONSTRAINT `Name_Service_FK` FOREIGN KEY (`Name_Service`) REFERENCES `service` (`Name`) ON DELETE CASCADE ON UPDATE CASCADE)
+2019-07-19 05:18:43 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:18:44 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:18:45 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:18:46 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:19:22 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:19:23 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:19:23 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:19:24 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:21:18 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:21:19 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:21:20 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:21:21 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:22:32 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:22:32 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:22:33 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:22:34 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:22:34 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper:137 - SQL Error: 1452, SQLState: 23000
+2019-07-19 05:22:34 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:142 - Cannot add or update a child row: a foreign key constraint fails (`springtest_junit`.`nameservice`, CONSTRAINT `Name_Service_FK` FOREIGN KEY (`Name_Service`) REFERENCES `service` (`Name`) ON DELETE CASCADE ON UPDATE CASCADE)
+2019-07-19 05:23:11 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:23:11 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:23:12 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:23:13 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:23:36 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:23:37 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:23:38 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:23:38 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:35:54 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:35:54 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:35:57 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:35:58 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 05:39:15 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 05:39:15 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 05:39:16 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 05:39:17 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 12:30:43 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 12:30:44 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 12:30:46 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 12:30:48 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 13:57:45 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 13:57:45 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 13:57:46 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 13:57:47 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 13:58:50 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 13:58:50 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 13:58:51 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 13:58:52 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 14:00:32 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 14:00:32 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 14:00:34 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 14:00:35 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 14:01:23 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 14:01:23 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 14:01:24 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 14:01:25 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 14:02:50 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 14:02:51 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 14:02:52 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 14:02:53 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 14:06:26 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 14:06:26 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 14:06:27 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 14:06:28 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 14:06:58 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 14:06:59 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 14:07:00 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 14:07:01 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 14:10:38 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 14:10:38 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 14:10:39 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 14:10:40 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 14:12:35 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 14:12:36 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 14:12:37 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 14:12:38 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 14:14:08 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 14:14:08 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 14:14:09 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 14:14:10 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-19 14:14:41 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-19 14:14:42 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-19 14:14:43 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-19 14:14:44 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
