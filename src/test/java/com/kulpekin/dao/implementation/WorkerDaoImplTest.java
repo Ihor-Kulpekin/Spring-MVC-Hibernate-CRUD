@@ -16,6 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
+
 @ContextConfiguration(locations = "classpath:dispatcherServletTest-servlet.xml")
 @RunWith(SpringJUnit4ClassRunner.class)
 public class WorkerDaoImplTest {
