@@ -10,10 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -23,7 +20,7 @@ public class OrderingController {
 
     private OrderingService orderingService;
 
-    private final Logger logger = Logger.getLogger(MainController.class);
+    private final Logger logger = Logger.getLogger(OrderingController.class);
 
     @Autowired
     @Qualifier("orderingService")
@@ -31,7 +28,7 @@ public class OrderingController {
         this.orderingService = orderingService;
     }
 
-    @RequestMapping("listOrdering")
+    @RequestMapping("/listOrdering")
     public ModelAndView showPAgeListOrdering(){
         logger.info("Show list of ordering");
         ModelAndView modelAndView = new ModelAndView("ordering/listOrdering");
@@ -64,8 +61,8 @@ public class OrderingController {
         return "redirect:/listOrdering";
     }
 
-    @RequestMapping("/edit_ordering")
-    public ModelAndView showPageEditOrdering(@RequestParam int id){
+    @RequestMapping("/edit_ordering/{id}")
+    public ModelAndView showPageEditOrdering(@PathVariable int id){
         ModelAndView modelAndView = new ModelAndView("ordering/edit_ordering");
         try {
             logger.info("Trying to get ordering with id = "+id);
@@ -90,8 +87,8 @@ public class OrderingController {
         return "redirect:/listOrdering";
     }
 
-    @RequestMapping("/delete_ordering")
-    public String deleteOrdering(@RequestParam int id){
+    @RequestMapping("/delete_ordering/{id}")
+    public String deleteOrdering(@PathVariable int id){
         try {
             logger.info("Trying to delete ordering with id = "+id);
             orderingService.removeOrdering(id);
@@ -102,8 +99,8 @@ public class OrderingController {
         return "redirect:/listOrdering";
     }
 
-    @RequestMapping("/search_ordering")
-    public ModelAndView detailsOrdering(@RequestParam int id){
+    @RequestMapping("/search_ordering/{id}")
+    public ModelAndView detailsOrdering(@PathVariable int id){
         ModelAndView modelAndView = new ModelAndView("ordering/details_ordering");
         try {
             logger.info("Trying to get information about ordering with id = "+id);

@@ -7,10 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -21,7 +18,7 @@ public class ClientController {
 
     private ClientService clientService;
 
-    private final Logger logger = Logger.getLogger(MainController.class);
+    private final Logger logger = Logger.getLogger(ClientController.class);
 
     @Autowired
     @Qualifier("clientService")
@@ -57,8 +54,8 @@ public class ClientController {
         return "redirect:/listClients";
     }
 
-    @RequestMapping("/edit_client")
-    public ModelAndView showPageEditClient(@RequestParam int id){
+    @RequestMapping("/edit_client/{id}")
+    public ModelAndView showPageEditClient(@PathVariable int id){
         ModelAndView modelAndView = new ModelAndView("client/edit_client");
         try {
             logger.info("Get information about client with id = "+id);
@@ -83,8 +80,8 @@ public class ClientController {
         return "redirect:/listClients";
     }
 
-    @RequestMapping("delete_client")
-    public String deleteClient(@RequestParam int id){
+    @RequestMapping("/delete_client/{id}")
+    public String deleteClient(@PathVariable int id){
         try {
             logger.info("Trying to delete client with id = "+id);
             clientService.removeClient(id);
@@ -96,8 +93,8 @@ public class ClientController {
     }
 
 
-    @RequestMapping("/search_client")
-    public ModelAndView detailsWorker(@RequestParam int id){
+    @RequestMapping("/search_client/{id}")
+    public ModelAndView detailsWorker(@PathVariable int id){
         ModelAndView modelAndView = new ModelAndView("client/details_client");
         try {
             logger.info("Trying to get information about client with id = "+id);

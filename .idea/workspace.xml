@@ -7,23 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a6e6692-b6ab-4655-8804-fe4454ddbe14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/ClientControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/MainControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/NameServiceControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/OrderingControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/ServiceControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/WorkerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/program_logging.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/program_logging.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/NameServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/NameServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/ServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/ServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/WorkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/WorkerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kulpekin/service/implementation/OrderingServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kulpekin/service/implementation/OrderingServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PrintingHouse/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PrintingHouse/WEB-INF/classes/META-INF/PrintingHouse.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kulpekin/controllers/ServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kulpekin/controllers/ServiceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/OrderingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/OrderingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kulpekin/models/Ordering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kulpekin/models/Ordering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/ClientControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/ClientControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/OrderingControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/OrderingControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kulpekin/controllers/NameServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kulpekin/controllers/NameServiceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kulpekin/controllers/WorkerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kulpekin/controllers/WorkerController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,11 +44,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/ClientControllerTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/ServiceControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="264">
+              <caret line="154" column="40" selection-start-line="149" selection-start-column="8" selection-end-line="154" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/OrderingControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/OrderingController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="101" column="21" lean-forward="true" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -94,7 +110,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/client/new_client.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/ValidateNameService.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nameService/edit_nameservice.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/models/Ordering.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/ValidateOrdering.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ordering/new_ordering.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/logger/Logging.java" />
@@ -103,9 +118,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nameService/new_nameservice.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/ClientController.java" />
         <option value="$PROJECT_DIR$/program_logging.log" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/OrderingController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/com.kulpekin/com/kulpekin/dao/implementation/ServiceDaoImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/dispatcherServletTest-servlet.xml" />
@@ -125,17 +138,20 @@
         <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/service/implementation/OrderingServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/service/implementation/PoslugaServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/service/interfaceService/PoslugaService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/AbstractTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/ServiceController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/ClientControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/OrderingControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/MainControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/ServiceControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/NameServiceControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/NameServiceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/WorkerController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/WorkerControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/AbstractTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/ClientController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/ClientControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/models/Ordering.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/OrderingController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/OrderingControllerTest.java" />
       </list>
     </option>
   </component>
@@ -187,6 +203,7 @@
     </navigator>
     <panes>
       <pane id="CatdeaLogs" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -212,6 +229,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-MVC-Hibernate-CRUD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-MVC-Hibernate-CRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kulpekin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-MVC-Hibernate-CRUD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-MVC-Hibernate-CRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kulpekin" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring-MVC-Hibernate-CRUD" type="b2602c69:ProjectViewProjectNode" />
@@ -247,14 +281,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="hsqldb&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564368062061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564411730781" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -295,8 +328,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WorkerControllerTest">
-    <configuration name="WorkerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrderingControllerTest">
+    <configuration name="OrderingControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring-MVC-Hibernate-CRUD" />
       <extension name="coverage">
         <pattern>
@@ -305,13 +338,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kulpekin.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.kulpekin.controllers.WorkerControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kulpekin.controllers.OrderingControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkerControllerTest.deleteWorker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderingControllerTest.deleteOrdering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring-MVC-Hibernate-CRUD" />
       <extension name="coverage">
         <pattern>
@@ -320,14 +353,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kulpekin.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.kulpekin.controllers.WorkerControllerTest" />
-      <option name="METHOD_NAME" value="deleteWorker" />
+      <option name="MAIN_CLASS_NAME" value="com.kulpekin.controllers.OrderingControllerTest" />
+      <option name="METHOD_NAME" value="deleteOrdering" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkerControllerTest.detailsWorker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderingControllerTest.detailsOrdering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring-MVC-Hibernate-CRUD" />
       <extension name="coverage">
         <pattern>
@@ -336,14 +369,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kulpekin.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.kulpekin.controllers.WorkerControllerTest" />
-      <option name="METHOD_NAME" value="detailsWorker" />
+      <option name="MAIN_CLASS_NAME" value="com.kulpekin.controllers.OrderingControllerTest" />
+      <option name="METHOD_NAME" value="detailsOrdering" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkerControllerTest.editWorker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderingControllerTest.editOrdering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring-MVC-Hibernate-CRUD" />
       <extension name="coverage">
         <pattern>
@@ -352,14 +385,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kulpekin.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.kulpekin.controllers.WorkerControllerTest" />
-      <option name="METHOD_NAME" value="editWorker" />
+      <option name="MAIN_CLASS_NAME" value="com.kulpekin.controllers.OrderingControllerTest" />
+      <option name="METHOD_NAME" value="editOrdering" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkerControllerTest.showPageEditWorker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderingControllerTest.showPageEditOrderingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring-MVC-Hibernate-CRUD" />
       <extension name="coverage">
         <pattern>
@@ -368,8 +401,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kulpekin.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.kulpekin.controllers.WorkerControllerTest" />
-      <option name="METHOD_NAME" value="showPageEditWorker" />
+      <option name="MAIN_CLASS_NAME" value="com.kulpekin.controllers.OrderingControllerTest" />
+      <option name="METHOD_NAME" value="showPageEditOrderingTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -477,19 +510,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.PrintingHouse [clean:clean,package...]" />
-      <item itemvalue="JUnit.WorkerControllerTest.showPageEditWorker" />
-      <item itemvalue="JUnit.WorkerControllerTest.editWorker" />
-      <item itemvalue="JUnit.WorkerControllerTest.deleteWorker" />
-      <item itemvalue="JUnit.WorkerControllerTest.detailsWorker" />
-      <item itemvalue="JUnit.WorkerControllerTest" />
+      <item itemvalue="JUnit.OrderingControllerTest.showPageEditOrderingTest" />
+      <item itemvalue="JUnit.OrderingControllerTest.editOrdering" />
+      <item itemvalue="JUnit.OrderingControllerTest.deleteOrdering" />
+      <item itemvalue="JUnit.OrderingControllerTest.detailsOrdering" />
+      <item itemvalue="JUnit.OrderingControllerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WorkerControllerTest" />
-        <item itemvalue="JUnit.WorkerControllerTest.detailsWorker" />
-        <item itemvalue="JUnit.WorkerControllerTest.deleteWorker" />
-        <item itemvalue="JUnit.WorkerControllerTest.editWorker" />
-        <item itemvalue="JUnit.WorkerControllerTest.showPageEditWorker" />
+        <item itemvalue="JUnit.OrderingControllerTest" />
+        <item itemvalue="JUnit.OrderingControllerTest.detailsOrdering" />
+        <item itemvalue="JUnit.OrderingControllerTest.deleteOrdering" />
+        <item itemvalue="JUnit.OrderingControllerTest.editOrdering" />
+        <item itemvalue="JUnit.OrderingControllerTest.showPageEditOrderingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -535,7 +568,8 @@
       <workItem from="1563802498148" duration="1067000" />
       <workItem from="1564055801583" duration="322000" />
       <workItem from="1564319055033" duration="1754000" />
-      <workItem from="1564327630118" duration="27288000" />
+      <workItem from="1564327630118" duration="27522000" />
+      <workItem from="1564406688190" duration="5022000" />
     </task>
     <task id="LOCAL-00001" summary="validation">
       <created>1563069771263</created>
@@ -628,43 +662,57 @@
       <option name="project" value="LOCAL" />
       <updated>1563540085928</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="testing web layer &quot;Controllers&quot;">
+      <created>1564368074886</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1564368074886</updated>
+    </task>
+    <task id="LOCAL-00015" summary="testing web layer &quot;Controllers&quot;">
+      <created>1564368124030</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1564368124030</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WorkerControllerTest_newWorkerForm - 2019.07.29 at 05h 04m 19s.xml">
-      <configuration name="WorkerControllerTest.newWorkerForm" configurationId="JUnit" />
+    <history-entry file="OrderingControllerTest_showPageAddOrderingTest - 2019.07.29 at 17h 19m 11s.xml">
+      <configuration name="OrderingControllerTest.showPageAddOrderingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerControllerTest_saveWorker - 2019.07.29 at 05h 17m 06s.xml">
-      <configuration name="WorkerControllerTest.saveWorker" configurationId="JUnit" />
+    <history-entry file="OrderingControllerTest_addOrderingTest - 2019.07.29 at 17h 27m 25s.xml">
+      <configuration name="OrderingControllerTest.addOrderingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerControllerTest_saveWorker - 2019.07.29 at 05h 18m 06s.xml">
-      <configuration name="WorkerControllerTest.saveWorker" configurationId="JUnit" />
+    <history-entry file="OrderingControllerTest_addOrderingTest - 2019.07.29 at 17h 30m 05s.xml">
+      <configuration name="OrderingControllerTest.addOrderingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerControllerTest_saveWorker - 2019.07.29 at 05h 19m 11s.xml">
-      <configuration name="WorkerControllerTest.saveWorker" configurationId="JUnit" />
+    <history-entry file="OrderingControllerTest_addOrderingTest - 2019.07.29 at 17h 31m 11s.xml">
+      <configuration name="OrderingControllerTest.addOrderingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerControllerTest_showPageEditWorker - 2019.07.29 at 05h 23m 08s.xml">
-      <configuration name="WorkerControllerTest.showPageEditWorker" configurationId="JUnit" />
+    <history-entry file="OrderingControllerTest_addOrderingTest - 2019.07.29 at 17h 32m 14s.xml">
+      <configuration name="OrderingControllerTest.addOrderingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerControllerTest_editWorker - 2019.07.29 at 05h 25m 47s.xml">
-      <configuration name="WorkerControllerTest.editWorker" configurationId="JUnit" />
+    <history-entry file="OrderingControllerTest_showPageEditOrderingTest - 2019.07.29 at 17h 35m 32s.xml">
+      <configuration name="OrderingControllerTest.showPageEditOrderingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerControllerTest_editWorker - 2019.07.29 at 05h 26m 54s.xml">
-      <configuration name="WorkerControllerTest.editWorker" configurationId="JUnit" />
+    <history-entry file="OrderingControllerTest_editOrdering - 2019.07.29 at 17h 37m 34s.xml">
+      <configuration name="OrderingControllerTest.editOrdering" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerControllerTest_deleteWorker - 2019.07.29 at 05h 30m 42s.xml">
-      <configuration name="WorkerControllerTest.deleteWorker" configurationId="JUnit" />
+    <history-entry file="OrderingControllerTest_deleteOrdering - 2019.07.29 at 17h 40m 15s.xml">
+      <configuration name="OrderingControllerTest.deleteOrdering" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerControllerTest_detailsWorker - 2019.07.29 at 05h 34m 26s.xml">
-      <configuration name="WorkerControllerTest.detailsWorker" configurationId="JUnit" />
+    <history-entry file="OrderingControllerTest_detailsOrdering - 2019.07.29 at 17h 42m 45s.xml">
+      <configuration name="OrderingControllerTest.detailsOrdering" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkerControllerTest - 2019.07.29 at 05h 34m 55s.xml">
-      <configuration name="WorkerControllerTest" configurationId="JUnit" />
+    <history-entry file="OrderingControllerTest - 2019.07.29 at 17h 43m 06s.xml">
+      <configuration name="OrderingControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179485000" />
+    <option name="totallyTimeSpent" value="184741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,7 +726,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" weight="0.63161874" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.32753405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -717,7 +765,7 @@
       <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="9" side_tool="true" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" weight="0.63161874" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.32753405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -729,7 +777,7 @@
       <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49621785" visible="true" weight="0.37806875" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49621785" visible="true" weight="0.37806875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -813,16 +861,10 @@
     <MESSAGE value="testing dao layer &quot;Client&quot;" />
     <MESSAGE value="testing dao layer &quot;Worker&quot;" />
     <MESSAGE value="testing dao layer &quot;Ordering&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing dao layer &quot;Ordering&quot;" />
+    <MESSAGE value="testing web layer &quot;Controllers&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing web layer &quot;Controllers&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.9.RELEASE/spring-test-5.0.9.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.9.RELEASE/spring-test-5.0.9.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -1118,16 +1160,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/AbstractTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/ServiceController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -1142,30 +1174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="159" column="18" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/ClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/OrderingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/OrderingControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1213,16 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/ServiceControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="154" column="40" lean-forward="true" selection-start-line="149" selection-start-column="8" selection-end-line="154" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/WorkerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
@@ -1230,10 +1228,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/AbstractTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/ClientControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="89" column="18" lean-forward="true" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulpekin/models/Ordering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kulpekin/controllers/OrderingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="101" column="21" lean-forward="true" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/ServiceControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="154" column="40" selection-start-line="149" selection-start-column="8" selection-end-line="154" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kulpekin/controllers/OrderingControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

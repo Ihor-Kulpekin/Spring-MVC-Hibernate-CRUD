@@ -1388,3 +1388,210 @@ java.sql.SQLSyntaxErrorException: Unknown table 'sequences' in information_schem
 2019-07-29 05:39:08 INFO  com.kulpekin.controllers.WorkerController:59 - Show page edit worker
 2019-07-29 05:39:08 INFO  com.kulpekin.controllers.WorkerController:69 - Trying to edit worker with id = 0
 2019-07-29 05:39:08 INFO  com.kulpekin.controllers.WorkerController:71 - Worker was edited
+2019-07-29 16:35:50 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 16:35:50 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 16:35:52 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 16:35:53 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 16:35:55 INFO  com.kulpekin.controllers.MainController:34 - Show list clients
+2019-07-29 16:40:10 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 16:40:11 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 16:40:12 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 16:40:13 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 16:40:14 INFO  com.kulpekin.controllers.MainController:43 - Show page 'new client'
+2019-07-29 16:40:59 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 16:40:59 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 16:41:02 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 16:41:04 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 16:41:05 INFO  com.kulpekin.controllers.MainController:43 - Show page 'new client'
+2019-07-29 16:41:42 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 16:41:43 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 16:41:45 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 16:41:48 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 16:41:51 INFO  com.kulpekin.controllers.ClientController:43 - Show page 'new client'
+2019-07-29 16:52:15 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 16:52:15 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 16:52:16 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 16:52:17 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 16:52:18 INFO  com.kulpekin.controllers.ClientController:51 - Trying to add client to DB
+2019-07-29 16:52:18 INFO  com.kulpekin.controllers.ClientController:53 - Client was added to DB
+2019-07-29 16:55:23 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 16:55:24 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 16:55:26 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 16:55:27 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 16:56:22 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 16:56:23 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 16:56:25 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 16:56:27 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 16:56:29 INFO  com.kulpekin.controllers.ClientController:61 - Get information about client with id = 1
+2019-07-29 16:56:29 INFO  com.kulpekin.controllers.ClientController:64 - Client was got
+2019-07-29 16:59:31 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 16:59:32 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 16:59:34 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 16:59:35 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 16:59:36 INFO  com.kulpekin.controllers.ClientController:74 - Trying to edit client with id = 0
+2019-07-29 16:59:36 INFO  com.kulpekin.controllers.ClientController:76 - Client was edited
+2019-07-29 17:03:39 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:03:39 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:03:41 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:03:43 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:03:45 INFO  com.kulpekin.controllers.ClientController:86 - Trying to delete client with id = 1
+2019-07-29 17:03:45 INFO  com.kulpekin.controllers.ClientController:88 - Client was deleted
+2019-07-29 17:06:44 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:06:44 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:06:46 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:06:47 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:06:48 INFO  com.kulpekin.controllers.ClientController:100 - Trying to get information about client with id = 1
+2019-07-29 17:06:48 INFO  com.kulpekin.controllers.ClientController:103 - Client was got
+2019-07-29 17:07:09 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:07:09 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:07:10 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:07:12 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:07:13 INFO  com.kulpekin.controllers.ClientController:86 - Trying to delete client with id = 1
+2019-07-29 17:07:13 INFO  com.kulpekin.controllers.ClientController:88 - Client was deleted
+2019-07-29 17:07:13 INFO  com.kulpekin.controllers.ClientController:48 - Trying to add client to DB
+2019-07-29 17:07:13 INFO  com.kulpekin.controllers.ClientController:50 - Client was added to DB
+2019-07-29 17:07:13 INFO  com.kulpekin.controllers.ClientController:40 - Show page 'new client'
+2019-07-29 17:07:14 INFO  com.kulpekin.controllers.ClientController:100 - Trying to get information about client with id = 1
+2019-07-29 17:07:14 INFO  com.kulpekin.controllers.ClientController:103 - Client was got
+2019-07-29 17:07:14 INFO  com.kulpekin.controllers.ClientController:61 - Get information about client with id = 1
+2019-07-29 17:07:14 INFO  com.kulpekin.controllers.ClientController:64 - Client was got
+2019-07-29 17:07:14 INFO  com.kulpekin.controllers.ClientController:74 - Trying to edit client with id = 0
+2019-07-29 17:07:14 INFO  com.kulpekin.controllers.ClientController:76 - Client was edited
+2019-07-29 17:07:14 INFO  com.kulpekin.controllers.ClientController:31 - Show list clients
+2019-07-29 17:13:51 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:13:51 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:13:53 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:13:55 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:14:32 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:14:33 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:14:35 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:14:36 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:14:37 INFO  com.kulpekin.controllers.MainController:36 - Show list of ordering
+2019-07-29 17:16:26 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:16:26 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:16:27 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:16:28 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:17:12 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:17:12 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:17:13 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:17:14 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:19:06 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:19:07 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:19:08 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:19:09 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:27:20 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:27:20 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:27:21 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:27:22 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:30:01 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:30:01 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:30:02 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:30:03 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:31:07 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:31:08 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:31:09 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:31:10 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:31:11 INFO  com.kulpekin.controllers.MainController:58 - Trying to ad ordering to DB
+2019-07-29 17:31:11 INFO  com.kulpekin.controllers.MainController:60 - Ordering was added
+2019-07-29 17:32:10 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:32:11 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:32:12 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:32:13 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:32:14 INFO  com.kulpekin.controllers.MainController:58 - Trying to ad ordering to DB
+2019-07-29 17:32:14 INFO  com.kulpekin.controllers.MainController:60 - Ordering was added
+2019-07-29 17:35:28 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:35:28 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:35:29 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:35:30 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:35:31 INFO  com.kulpekin.controllers.OrderingController:68 - Trying to get ordering with id = 1
+2019-07-29 17:35:31 INFO  com.kulpekin.controllers.OrderingController:71 - Ordering was got
+2019-07-29 17:37:30 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:37:30 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:37:31 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:37:32 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:37:34 INFO  com.kulpekin.controllers.OrderingController:81 - Trying to edit ordering with id = 0
+2019-07-29 17:37:34 INFO  com.kulpekin.controllers.OrderingController:83 - Ordering was edited
+2019-07-29 17:40:11 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:40:12 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:40:13 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:40:14 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:40:15 INFO  com.kulpekin.controllers.OrderingController:93 - Trying to delete ordering with id = 1
+2019-07-29 17:40:15 INFO  com.kulpekin.controllers.OrderingController:95 - Ordering was deleted
+2019-07-29 17:42:41 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:42:41 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:42:42 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:42:43 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:42:44 INFO  com.kulpekin.controllers.OrderingController:106 - Trying to get information about ordering with id = 1
+2019-07-29 17:42:44 INFO  com.kulpekin.controllers.OrderingController:109 - Ordering was got
+2019-07-29 17:43:02 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:43:02 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:43:04 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:43:04 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:43:05 INFO  com.kulpekin.controllers.OrderingController:68 - Trying to get ordering with id = 1
+2019-07-29 17:43:05 INFO  com.kulpekin.controllers.OrderingController:71 - Ordering was got
+2019-07-29 17:43:06 INFO  com.kulpekin.controllers.OrderingController:55 - Trying to ad ordering to DB
+2019-07-29 17:43:06 INFO  com.kulpekin.controllers.OrderingController:57 - Ordering was added
+2019-07-29 17:43:06 INFO  com.kulpekin.controllers.OrderingController:93 - Trying to delete ordering with id = 1
+2019-07-29 17:43:06 INFO  com.kulpekin.controllers.OrderingController:95 - Ordering was deleted
+2019-07-29 17:43:06 INFO  com.kulpekin.controllers.OrderingController:81 - Trying to edit ordering with id = 0
+2019-07-29 17:43:06 INFO  com.kulpekin.controllers.OrderingController:83 - Ordering was edited
+2019-07-29 17:43:06 INFO  com.kulpekin.controllers.OrderingController:33 - Show list of ordering
+2019-07-29 17:43:06 INFO  com.kulpekin.controllers.OrderingController:106 - Trying to get information about ordering with id = 1
+2019-07-29 17:43:06 INFO  com.kulpekin.controllers.OrderingController:109 - Ordering was got
+2019-07-29 17:43:55 INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.4.1.Final}
+2019-07-29 17:43:55 INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-07-29 17:43:56 INFO  org.hibernate.dialect.Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-29 17:43:57 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.ClientController:86 - Trying to delete client with id = 1
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.ClientController:88 - Client was deleted
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.ClientController:48 - Trying to add client to DB
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.ClientController:50 - Client was added to DB
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.ClientController:40 - Show page 'new client'
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.ClientController:100 - Trying to get information about client with id = 1
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.ClientController:103 - Client was got
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.ClientController:61 - Get information about client with id = 1
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.ClientController:64 - Client was got
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.ClientController:74 - Trying to edit client with id = 0
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.ClientController:76 - Client was edited
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.ClientController:31 - Show list clients
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.MainController:15 - Start logging
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.NameServiceController:88 - Delete name service by id = 1
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.NameServiceController:55 - Trying to add name service to DB
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.NameServiceController:57 - Name service is added to DB
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.NameServiceController:76 - Trying to edit name service
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.NameServiceController:78 - Name service is edited
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.NameServiceController:66 - Show edit name service page
+2019-07-29 17:43:58 INFO  com.kulpekin.controllers.NameServiceController:32 - Showing list of name service
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.NameServiceController:42 - Show page add new name service
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.OrderingController:68 - Trying to get ordering with id = 1
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.OrderingController:71 - Ordering was got
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.OrderingController:55 - Trying to ad ordering to DB
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.OrderingController:57 - Ordering was added
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.OrderingController:93 - Trying to delete ordering with id = 1
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.OrderingController:95 - Ordering was deleted
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.OrderingController:81 - Trying to edit ordering with id = 0
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.OrderingController:83 - Ordering was edited
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.OrderingController:33 - Show list of ordering
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.OrderingController:106 - Trying to get information about ordering with id = 1
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.OrderingController:109 - Ordering was got
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.ServiceController:96 - Trying to get information about id = 1
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.ServiceController:99 - Got information about id = 1
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.ServiceController:83 - Trying to delete service by id = 1
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.ServiceController:85 - Service is deleted
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.ServiceController:51 - Trying to add service to DB...
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.ServiceController:53 - Service is added to DB
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.ServiceController:32 - Showing list services...
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.ServiceController:35 - [null]
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.ServiceController:71 - Trying to edit service
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.ServiceController:73 - Service is edited
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.WorkerController:81 - Trying to delete worker with id =1
+2019-07-29 17:43:59 INFO  com.kulpekin.controllers.WorkerController:83 - Worker was deleted
+2019-07-29 17:44:00 INFO  com.kulpekin.controllers.WorkerController:39 - Show add worker page
+2019-07-29 17:44:00 INFO  com.kulpekin.controllers.WorkerController:94 - Tring to get information about worker with id = 1
+2019-07-29 17:44:00 INFO  com.kulpekin.controllers.WorkerController:97 - Information was got
+2019-07-29 17:44:00 INFO  com.kulpekin.controllers.WorkerController:48 - Trying to add worker to DB
+2019-07-29 17:44:00 INFO  com.kulpekin.controllers.WorkerController:50 - Worker was added to DB
+2019-07-29 17:44:00 INFO  com.kulpekin.controllers.WorkerController:30 - Show list worker page
+2019-07-29 17:44:00 INFO  com.kulpekin.controllers.WorkerController:59 - Show page edit worker
+2019-07-29 17:44:00 INFO  com.kulpekin.controllers.WorkerController:69 - Trying to edit worker with id = 0
+2019-07-29 17:44:00 INFO  com.kulpekin.controllers.WorkerController:71 - Worker was edited

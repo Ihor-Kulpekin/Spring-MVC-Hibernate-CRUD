@@ -32,6 +32,16 @@ public class Ordering {
     public Ordering() {
     }
 
+    public Ordering(int id, String generalPrice, String dateOrdering, String numberService, int idClient, int idWorker, int idNameService) {
+        this.id = id;
+        this.generalPrice = generalPrice;
+        this.dateOrdering = dateOrdering;
+        this.numberService = numberService;
+        this.idClient = idClient;
+        this.idWorker = idWorker;
+        this.idNameService = idNameService;
+    }
+
     public int getId() {
         return id;
     }
