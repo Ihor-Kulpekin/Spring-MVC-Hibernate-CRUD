@@ -18,5 +18,5 @@ IHOR KULPEKIN
 * **Web:** JSP;
 * **Servlet Containers:** Tomcat;
 * **Integrated Development Environment:** IntelliJ IDEA;
-* **Frameworks:** Spring, Hibernate, Junit;
+* **Frameworks:** Spring, Hibernate, Junit, Mockito;
 
