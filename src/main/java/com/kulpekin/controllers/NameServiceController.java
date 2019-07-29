@@ -8,10 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -21,7 +18,7 @@ public class NameServiceController {
 
     private NamePoslugaService namePoslugaService;
 
-    private final Logger logger = Logger.getLogger(MainController.class);
+    private final Logger logger = Logger.getLogger(NameServiceController.class);
 
 
     @Autowired
@@ -64,8 +61,8 @@ public class NameServiceController {
         return "redirect:/listNameService";
     }
 
-    @RequestMapping("/edit_nameservice")
-    public ModelAndView showPageEditNameService(@RequestParam int id){
+    @RequestMapping("/edit_nameservice/{id}")
+    public ModelAndView showPageEditNameService(@PathVariable int id){
         logger.info("Show edit name service page");
         ModelAndView modelAndView = new ModelAndView("nameService/edit_nameservice");
         NameService nameService = namePoslugaService.getNameServiceById(id);
@@ -85,8 +82,8 @@ public class NameServiceController {
         return "redirect:/listNameService";
     }
 
-    @RequestMapping("/delete_nameservice")
-    public String deleteNameService(@RequestParam int id){
+    @RequestMapping("/delete_nameservice/{id}")
+    public String deleteNameService(@PathVariable int id){
         try {
             logger.info("Delete name service by id = "+id);
             namePoslugaService.deleteNameService(id);
@@ -97,8 +94,8 @@ public class NameServiceController {
     }
 
 
-    @RequestMapping("/search_nameservice")
-    public ModelAndView detailsNameService(@RequestParam int id){
+    @RequestMapping("/search_nameservice/{id}")
+    public ModelAndView detailsNameService(@PathVariable int id){
         ModelAndView modelAndView = new ModelAndView("nameService/details_nameservice");
         NameService nameService = namePoslugaService.getNameServiceById(id);
         modelAndView.addObject("nameService",nameService);

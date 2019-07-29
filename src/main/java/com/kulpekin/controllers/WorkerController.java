@@ -7,10 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -20,7 +17,7 @@ public class WorkerController {
 
     private WorkerService workerService;
 
-    private final Logger logger = Logger.getLogger(MainController.class);
+    private final Logger logger = Logger.getLogger(WorkerController.class);
 
     @Autowired
     @Qualifier(value = "workerService")
@@ -57,8 +54,8 @@ public class WorkerController {
         return "redirect:/listWorkers";
     }
 
-    @RequestMapping("/edit_worker")
-    public ModelAndView showPageEditWorker(@RequestParam int id){
+    @RequestMapping("/edit_worker/{id}")
+    public ModelAndView showPageEditWorker(@PathVariable int id){
         logger.info("Show page edit worker");
         ModelAndView modelAndView = new ModelAndView("worker/edit_worker");
         Worker worker = workerService.getWorkerById(id);
@@ -66,7 +63,7 @@ public class WorkerController {
         return modelAndView;
     }
 
-    @RequestMapping(value = "edit_worker/worker",method = RequestMethod.POST)
+    @RequestMapping(value = "/edit_worker/worker",method = RequestMethod.POST)
     public String editWorker(@ModelAttribute("worker") Worker worker){
         try {
             logger.info("Trying to edit worker with id = "+worker.getId());
@@ -78,8 +75,8 @@ public class WorkerController {
         return "redirect:/listWorkers";
     }
 
-    @RequestMapping("delete_worker")
-    public String deleteWorker(@RequestParam int id){
+    @RequestMapping("/delete_worker/{id}")
+    public String deleteWorker(@PathVariable int id){
         try {
             logger.info("Trying to delete worker with id =" + id);
             workerService.removeWorker(id);
@@ -90,8 +87,8 @@ public class WorkerController {
         return "redirect:/listWorkers";
     }
 
-    @RequestMapping("/search_worker")
-    public ModelAndView detailsWorker(@RequestParam int id){
+    @RequestMapping("/search_worker/{id}")
+    public ModelAndView detailsWorker(@PathVariable int id){
         ModelAndView modelAndView = new ModelAndView("worker/details_worker");
         try {
             logger.info("Tring to get information about worker with id = "+id);
